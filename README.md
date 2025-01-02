@@ -33,8 +33,7 @@ This is a notes app which you can use in your day-to-day life to take notes and 
 6. **Clean Architecture**: It is a design approach that separates an application into layers (e.g., presentation, domain, data) to ensure scalability, maintainability, and independence from frameworks or external libraries.
 7. **Kotlin Coroutines**: They are a concurrency framework that simplifies asynchronous programming by allowing tasks to be written sequentially while managing threading and suspensions efficiently.
 8. **Room**: A persistence library that provides an abstraction layer over SQLite to manage local database operations efficiently in Android applications.
-9. **Abstractions**: It is the process of hiding complex implementation details and showing only the essential features of an object or system.
-10. **SavedStateHandles**: It is a key-value store used to handle and retain UI-related state in Jetpack's ViewModel across configuration changes.
+9. **Canvas**: It is a versatile drawing tool that allows creating custom shapes, graphics, and animations by directly manipulating pixels and paths.
 
 --- 
 
@@ -46,6 +45,8 @@ While building this app, I learned about:
 - Gained insight into the application of abstraction in database interactions to achieve a more organized architecture.
 - Investigated the functionalities of Jetpack Compose, including AnimatedVisibility, animations, SnackBar, and the management of multiple composables on a single screen.
 - Understood SharedFlows and Channels for the management of one-time events, such as displaying SnackBar messages from the ViewModel.
+- Recognized the significance "SavedStateHandle" in preserving and retrieving UI state, including the ability to access the ID of an existing note for modifications.
+- Learned about Canvas, in which I created tailored UI components, including a rectangular box with a folded corner for a note, learned about paths and utilize functions such as lineTo, drawRoundRect, and clipPath, in conjunction with custom shape calculations.
 
 --- 
 
